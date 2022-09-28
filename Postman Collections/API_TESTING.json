@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "8fef7649-1730-437b-959b-67b1aeb1387c",
+		"name": "Activa Campaign - API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List of Orders",
+			"_postman_id": "934428fa-e28d-4215-9bbb-59d9b075dbef",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders"
+			},
+			"response": []
+		},
+		{
+			"name": "Order FIlter by External ID",
+			"_postman_id": "4f537b9e-9f11-44f9-8fd5-1ece8cb2f7aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[externalid]=100113",
+					"protocol": "https",
+					"host": [
+						"liveaquaria1641201512",
+						"api-us1",
+						"com"
+					],
+					"path": [
+						"api",
+						"3",
+						"ecomOrders"
+					],
+					"query": [
+						{
+							"key": "filters[externalid]",
+							"value": "100113"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order Filter by Email",
+			"_postman_id": "30b458bf-4334-46c2-8756-665fb24708a6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[email]=indeewarag@eteknowledge.com",
+					"protocol": "https",
+					"host": [
+						"liveaquaria1641201512",
+						"api-us1",
+						"com"
+					],
+					"path": [
+						"api",
+						"3",
+						"ecomOrders"
+					],
+					"query": [
+						{
+							"key": "filters[email]",
+							"value": "indeewarag@eteknowledge.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order Filter by CustomerID",
+			"_postman_id": "031bbc12-bbb5-448b-8b9d-43a2ecdbae8f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[customerid]=25",
+					"protocol": "https",
+					"host": [
+						"liveaquaria1641201512",
+						"api-us1",
+						"com"
+					],
+					"path": [
+						"api",
+						"3",
+						"ecomOrders"
+					],
+					"query": [
+						{
+							"key": "filters[customerid]",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order Filter by ID",
+			"_postman_id": "17d2729b-d436-43ad-ab73-ee58ecd206ae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[id]=177",
+					"protocol": "https",
+					"host": [
+						"liveaquaria1641201512",
+						"api-us1",
+						"com"
+					],
+					"path": [
+						"api",
+						"3",
+						"ecomOrders"
+					],
+					"query": [
+						{
+							"key": "filters[id]",
+							"value": "177"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": {
+			"value": "70b99c370d9e853a2d66cdd96f6554ddf497746d3f9258648b122773c4c0786a9d35932f",
+			"key": "Api-Token"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "83848043-dc4c-4ed4-ab52-093467c164a3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "51236f49-a697-432c-a8ef-c8dad110ea73",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
