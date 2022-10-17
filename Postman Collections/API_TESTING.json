@@ -155,7 +155,27 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[external_created_date]=2022-10-17",
+					"protocol": "https",
+					"host": [
+						"liveaquaria1641201512",
+						"api-us1",
+						"com"
+					],
+					"path": [
+						"api",
+						"3",
+						"ecomOrders"
+					],
+					"query": [
+						{
+							"key": "filters[external_created_date]",
+							"value": "2022-10-17"
+						}
+					]
+				}
 			},
 			"response": []
 		}
