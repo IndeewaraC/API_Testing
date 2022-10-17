@@ -180,7 +180,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "External ID",
 			"id": "ce20afa2-56f4-4249-b243-d4030b4f6b17",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
