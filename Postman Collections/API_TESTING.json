@@ -178,38 +178,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "External ID",
-			"id": "ce20afa2-56f4-4249-b243-d4030b4f6b17",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://liveaquaria1641201512.api-us1.com/api/3/ecomOrders?filters[externalid]=3934606",
-					"protocol": "https",
-					"host": [
-						"liveaquaria1641201512",
-						"api-us1",
-						"com"
-					],
-					"path": [
-						"api",
-						"3",
-						"ecomOrders"
-					],
-					"query": [
-						{
-							"key": "filters[externalid]",
-							"value": "3934606"
-						}
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"auth": {
